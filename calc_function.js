@@ -1,5 +1,5 @@
-function add(a, b) {
-    return (a + b)
+function addition(a, b) {
+    return (a + b);
 };
 
 function subtract(a, b) {
@@ -16,7 +16,7 @@ function divide(a, b) {
 
 function operate(a, operator, b) {
     if (operator == '+') {
-        return add(a, b);
+        return addition(a, b);
     }
     else if (operator == '-') {
         return subtract(a, b);
@@ -49,7 +49,7 @@ numbers.forEach((number) => number.addEventListener("click", function (e) {
 
 operators.forEach((op) => op.addEventListener("click", function (e) {
     handleOperator(e.target.value);
-    inputBar.textContent = (`${previousValue} ${e.target.value} ${currentValue}`);
+    inputBar.textContent = (`${e.target.value} ${currentValue}`);
 
 }));
 
@@ -74,7 +74,7 @@ clear.addEventListener("click", function(){
 });
 
 equal.addEventListener("click", function(){
-    let finalAnswer = operate(previousValue, operator, currentValue);
+    let finalAnswer = operate(+previousValue, operator, +currentValue);
     inputBar.textContent = (`${finalAnswer}`); 
 });
 
