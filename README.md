@@ -8,6 +8,11 @@ to create a functional calculator!
 Author: Kyle Gruen
 Date: 11-19-2022
 
+Version 1.3
+- CSS Background Creation
+- CSS Calculator Format
+- Javascript Addition Concatinating Bug Fixed
+
 Version 1.2 
 - HTML Reorganization
 - Calculator Function in JavaScript 
