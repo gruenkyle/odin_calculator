@@ -8,6 +8,9 @@ to create a functional calculator!
 Author: Kyle Gruen
 Date: 11-19-2022
 
+Version 1.2 
+- Testing
+
 Version 1.1 
 -Buttons Added to Html 
 -Basic Javascript Functions Created 
