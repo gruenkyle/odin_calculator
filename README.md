@@ -8,10 +8,17 @@ to create a functional calculator!
 Author: Kyle Gruen
 Date: 11-19-2022
 
+Version 1.2 
+- HTML Reorganization
+- Calculator Function in JavaScript 
+- Operator and Display Text Changes
+- Display Answers and Button Dynamic Functionality
+- CSS Design of Calculator 
+
 Version 1.1 
--Buttons Added to Html 
--Basic Javascript Functions Created 
+- Buttons Added to Html 
+- Basic Javascript Functions Created 
 
 Version 1.0
--Basic File Structure Created 
--Homepage.css calc_function.js index.html
+- Basic File Structure Created 
+- Homepage.css calc_function.js index.html
