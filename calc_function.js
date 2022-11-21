@@ -34,6 +34,7 @@ function operate(a, operator, b) {
 
 let currentValue = '';
 let previousValue = '';
+let runningValue = ''; 
 let operator = '';
 
 const numbers = document.querySelectorAll(".digit");
@@ -48,6 +49,10 @@ numbers.forEach((number) => number.addEventListener("click", function (e) {
 }));
 
 operators.forEach((op) => op.addEventListener("click", function (e) {
+    if (currentValue != null && previousValue != null){
+        runningValue = operate(+previousValue, operator, +currentValue);
+        previousValue = runningValue; 
+    }
     handleOperator(e.target.value);
     inputBar.textContent = (`${e.target.value} ${currentValue}`);
 
