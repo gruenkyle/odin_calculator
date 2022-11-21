@@ -8,6 +8,10 @@ to create a functional calculator!
 Author: Kyle Gruen
 Date: 11-19-2022
 
+Version 1.4
+- Multiple Operator Handling 
+- Bug where PEMDAS does not take place needs fix
+
 Version 1.3
 - CSS Background Creation
 - CSS Calculator Format
